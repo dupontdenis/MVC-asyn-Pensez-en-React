@@ -1,0 +1,8 @@
+/* Limit the width of the first column to 150px */
+table tr td:nth-child(1) {
+  width: 150px;
+  white-space: nowrap;
+  /* Prevent text wrapping */
+}
+
+/* Limit the width of the table */

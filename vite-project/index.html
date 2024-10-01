@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MVC Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="controller.js" defer></script>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="form-group">
+      <input type="text" id="filter-input" class="form-control" placeholder="Filter products">
+    </div>
+    <div class="form-check mb-3">
+      <input type="checkbox" id="stock-checkbox" class="form-check-input">
+      <label for="stock-checkbox" class="form-check-label">Only show products in stock</label>
+    </div>
+    <div id="spinner">Loading...</div>
+    <div id="data-table" class="table-responsive"></div>
+  </div>
+</body>
+
+</html>
